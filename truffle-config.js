@@ -1,5 +1,5 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-var mnemonic = "meta mask mneomic";
+var mnemonic = "meta mask mnemonic";
 
 module.exports = {
   networks: {
