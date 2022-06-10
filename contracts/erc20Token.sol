@@ -9,8 +9,8 @@ import "./erc20Interface.sol";
 
 contract ERC20Token is ERC20Interface {
 
-    uint256 constant private MAX_UINT256 = 2**256 - 1; // max amount a uint256 can store 
-    mapping (address => uint256) public balances; //list of address keyed to balances
+    uint256 constant private MAX_UINT256 = 2**256 - 1;           // max amount a uint256 can store 
+    mapping (address => uint256) public balances;              //list of address keyed to balances
     mapping (address => mapping (address => uint256)) public allowed; /* A transfered to B
     A transfered to C
     A transfered to D*/
